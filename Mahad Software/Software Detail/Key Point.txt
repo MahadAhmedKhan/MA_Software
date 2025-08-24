@@ -1,0 +1,70 @@
+Employee → Attendance → Payroll → Loan → Overtime → Deduction kaise connect hoga.
+
+
+🔹 Step 1: Employee Table (Master Data)
+Yahaan tumhara basic info hota hai.
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
+    FullName NVARCHAR(100),
+    Department NVARCHAR(100),
+    Designation NVARCHAR(100),
+    BaseSalary DECIMAL(18,2)  -- Monthly Fixed Salary
+);
+
+🔹 Step 2: Attendance Table (Daily Record)
+Ye table humne pehle banaya tha:
+CREATE TABLE Attendance (
+    AttendanceID INT PRIMARY KEY IDENTITY(1,1),
+    EmployeeID INT NOT NULL,
+    AttendanceDate DATE NOT NULL,
+    Status VARCHAR(20), -- Present, Absent, Leave, Half Day
+    CheckInTime TIME NULL,
+    CheckOutTime TIME NULL,
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+);
+🔹 Step 3: Overtime Table
+Jab employee extra kaam kare to record yahan save hoga.
+CREATE TABLE Overtime (
+    OvertimeID INT PRIMARY KEY IDENTITY(1,1),
+    EmployeeID INT NOT NULL,
+    OTDate DATE NOT NULL,
+    Hours DECIMAL(5,2),
+    RatePerHour DECIMAL(10,2),
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+)
+;👉 Formula: Overtime Pay = Hours × RatePerHour
+
+🔹 Step 4: Deduction / Loan Table
+Jab employee ka loan ya penalty ho, wo yahan record hoga.
+
+CREATE TABLE Deductions (
+    DeductionID INT PRIMARY KEY IDENTITY(1,1),
+    EmployeeID INT NOT NULL,
+    DeductionDate DATE NOT NULL,
+    Reason NVARCHAR(200),
+    Amount DECIMAL(18,2),
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+);
+👉 Example: Late arrival penalty, Loan installment, Fine, etc.
+
+
+🔹 Step 5: Payroll / Salary Table (Final Result)
+
+Is table me monthly summary save hogi.
+
+CREATE TABLE Payroll (
+    PayrollID INT PRIMARY KEY IDENTITY(1,1),
+    EmployeeID INT NOT NULL,
+    SalaryMonth DATE NOT NULL,   -- e.g. 2025-08-01
+    BasicSalary DECIMAL(18,2),
+    TotalOvertime DECIMAL(18,2),
+    TotalDeduction DECIMAL(18,2),
+    NetSalary AS (BasicSalary + TotalOvertime - TotalDeduction) PERSISTED,
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+);
+🔹 Relationships
+
+
+
+
+

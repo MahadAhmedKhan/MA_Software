@@ -1,0 +1,194 @@
+📝 Employee Payroll System (Step by Step Plan)
+🔹 Step 1: Database Tables (SQL Server)
+1. Employee Table
+
+Fields:
+
+EmployeeID (Primary Key, Auto)
+
+FullName (TextBox)
+
+FatherName (TextBox)
+
+Gender (ComboBox: Male/Female/Other)
+
+DOB (DatePicker)
+
+CNIC (TextBox)
+
+ContactNo (TextBox)
+
+Email (TextBox)
+
+Address (TextBox / Multiline)
+
+Department (ComboBox)
+
+Designation (ComboBox)
+
+DateOfJoining (DatePicker)
+
+Status (ComboBox: Active/Inactive)
+
+2. Payroll Table
+
+Fields:
+
+PayrollID (Primary Key, Auto)
+
+EmployeeID (Foreign Key → Employee Table)
+
+BasicSalary (TextBox Numeric)
+
+WorkingDays (TextBox Numeric)
+
+OvertimeHours (TextBox Numeric)
+
+OvertimeRate (TextBox Numeric)
+
+Allowances (TextBox Numeric)
+
+Bonus (TextBox Numeric)
+
+Deductions (TextBox Numeric)
+
+Tax (TextBox Numeric)
+
+NetSalary (Auto Calculate → Label/TextBox ReadOnly)
+
+PayDate (DatePicker)
+
+3. BankDetails Table
+
+Fields:
+
+BankID (Primary Key, Auto)
+
+EmployeeID (Foreign Key → Employee Table)
+
+BankName (ComboBox)
+
+AccountNumber (TextBox)
+
+PaymentMethod (ComboBox: Cash/Bank Transfer/Cheque)
+
+4. Attendance Table (optional for Payroll)
+
+Fields:
+
+AttendanceID (Primary Key, Auto)
+
+EmployeeID (Foreign Key)
+
+Date (DatePicker)
+
+Status (ComboBox: Present/Absent/Leave)
+
+WorkingHours (TextBox Numeric)
+
+🔹 Step 2: Form Design (WinForms)
+Form: Employee Registration
+
+Controls:
+
+EmployeeID → Label (auto generate)
+
+FullName → TextBox
+
+FatherName → TextBox
+
+Gender → ComboBox
+
+DOB → DateTimePicker
+
+CNIC → TextBox
+
+ContactNo → TextBox
+
+Email → TextBox
+
+Address → TextBox Multiline
+
+Department → ComboBox
+
+Designation → ComboBox
+
+DateOfJoining → DateTimePicker
+
+Status → ComboBox
+
+Form: Payroll Entry
+
+Controls:
+
+EmployeeID → ComboBox (bind from Employee table)
+
+BasicSalary → TextBox
+
+WorkingDays → TextBox
+
+OvertimeHours → TextBox
+
+OvertimeRate → TextBox
+
+Allowances → TextBox
+
+Bonus → TextBox
+
+Deductions → TextBox
+
+Tax → TextBox
+
+NetSalary → TextBox (ReadOnly, auto calculate)
+
+PayDate → DateTimePicker
+
+Button [Calculate]
+
+Button [Save Payroll]
+
+Form: Bank Details
+
+Controls:
+
+EmployeeID → ComboBox (bind)
+
+BankName → ComboBox
+
+AccountNumber → TextBox
+
+PaymentMethod → ComboBox
+
+Form: Attendance
+
+Controls:
+
+EmployeeID → ComboBox (bind)
+
+Date → DateTimePicker
+
+Status → ComboBox (Present/Absent/Leave)
+
+WorkingHours → TextBox
+
+🔹 Step 3: Dashboard (Navigation Style)
+
+Left Side Navigation Buttons:
+
+Employee Management
+
+Payroll Management
+
+Bank Details
+
+Attendance
+
+Reports / Salary Slips
+
+🔹 Step 4: Reports
+
+Salary Slip (Crystal Report / PDF Export)
+
+Monthly Payroll Report
+
+Employee Attendance Report

@@ -1,0 +1,50 @@
+
+Employee Payroll System - Field Explanation
+
+1. Employee Table (Basic Employee Information)
+---------------------------------------------
+- EmployeeID : Unique number for each employee (system generate).
+- FullName : Employee ka complete naam.
+- FatherName : Employee ke father/guardian ka naam.
+- Gender : Male / Female / Other (for record keeping).
+- DOB : Date of Birth (age calculate karne ke liye).
+- CNIC : National ID ya Identity Number (verification ke liye).
+- ContactNo : Mobile number ya phone number (contact ke liye).
+- Email : Employee ki email address (communication ke liye).
+- Address : Ghar ka address (official record ke liye).
+- Department : Employee kis department me kaam kar raha hai (HR, IT, Accounts etc.).
+- Designation : Employee ka job title (Manager, Clerk, Developer etc.).
+- DateOfJoining : Employee kab company join kiya tha.
+- Status : Active / Inactive (employee ka current status).
+
+2. Payroll Table (Salary and Payment Information)
+-------------------------------------------------
+- PayrollID : Unique number for each salary record.
+- EmployeeID : Kis employee ka payroll record hai (Employee table se link).
+- BasicSalary : Fix salary jo employee ko milti hai.
+- WorkingDays : Kitne din kaam kiya employee ne ek month me.
+- OvertimeHours : Extra kaam ke ghante.
+- OvertimeRate : Per hour overtime ka paisa.
+- Allowances : Extra benefits (House Rent, Medical, Travel etc.).
+- Bonus : Extra reward (performance, festival, etc.).
+- Deductions : Penalty ya loan jo salary se minus hoga.
+- Tax : Government tax cut hoga.
+- NetSalary : Final salary (Gross salary - deductions).
+- PayDate : Kab salary pay hui.
+
+3. BankDetails Table (Banking Information)
+------------------------------------------
+- BankID : Unique ID for bank detail record.
+- EmployeeID : Kis employee ka account hai (Employee table se link).
+- BankName : Bank ka naam (HBL, UBL, Meezan etc.).
+- AccountNumber : Employee ka account number.
+- PaymentMethod : Cash, Bank Transfer, Cheque.
+
+4. Attendance Table (Optional - for Payroll System)
+---------------------------------------------------
+- AttendanceID : Unique number for each attendance record.
+- EmployeeID : Kis employee ka record hai.
+- Date : Kis din ka record hai.
+- Status : Present / Absent / Leave.
+- WorkingHours : Kitne ghante kaam kiya us din.
+

@@ -1,0 +1,115 @@
+🏪 Real Life Example – Product Management System
+Business Example: Mobile Shop
+Step 1 – Product Entry (Master Data)
+
+Form: Product Form
+
+ProductID: P001
+
+Product Name: iPhone 14 Pro
+
+Category: Mobile
+
+Brand: Apple
+
+Cost Price: ₹1,10,000
+
+Selling Price: ₹1,25,000
+
+Barcode: 8901234567890
+
+Reorder Level: 5
+
+👉 System me product save ho gaya.
+
+Step 2 – Purchase from Supplier
+
+Form: Purchase Order (PO)
+
+PO No: PO1001
+
+Supplier: Apple Distributor
+
+Product: iPhone 14 Pro – Qty 10, Rate ₹1,10,000
+
+Total: ₹11,00,000
+
+Status: Pending
+
+Form: Goods Receive Note (GRN)
+
+GRN No: GRN1001
+
+Received Qty: 10
+
+Batch: BATCH01
+
+Date: 20 Aug 2025
+
+👉 Stock Update: iPhone 14 Pro = 10 pcs in inventory.
+
+Step 3 – Sales to Customer
+
+Form: Sales Invoice
+
+Invoice No: INV2001
+
+Customer: Rahul Sharma
+
+Product: iPhone 14 Pro – Qty 1, Rate ₹1,25,000
+
+Payment Mode: Card
+
+Status: Paid
+
+👉 Stock Update: 9 pcs left.
+
+Step 4 – Return Case
+
+Form: Sales Return
+
+Return ID: SR3001
+
+Customer: Rahul Sharma
+
+Product: iPhone 14 Pro – Qty 1
+
+Reason: Device Faulty
+
+Date: 22 Aug 2025
+
+👉 Stock Update: 10 pcs again (if good stock), OR move to “Damage” stock.
+
+Step 5 – Finance Entry
+
+Form: Payment Out
+
+Transaction ID: PAY4001
+
+Party: Apple Distributor
+
+Mode: Bank Transfer
+
+Amount: ₹11,00,000
+
+Date: 25 Aug 2025
+
+👉 Supplier ka outstanding clear.
+
+Step 6 – Reports
+
+Stock Summary Report
+
+iPhone 14 Pro = 10 pcs in stock
+
+Sales Report
+
+Total Sales = ₹1,25,000
+
+Profit & Loss Report
+
+Profit = (Selling Price – Cost Price) = ₹15,000 per unit
+
+Customer Wise Report
+
+Rahul Sharma purchased 1 iPhone 14 Pro
