@@ -113,33 +113,38 @@ Partial Class frm_EmployeeEntry
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1358, 332)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(905, 233)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(395, 45)
+        Me.TextBox1.Location = New System.Drawing.Point(263, 35)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(48, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(33, 20)
         Me.TextBox1.TabIndex = 36
         '
         'txtcode
         '
-        Me.txtcode.Location = New System.Drawing.Point(156, 45)
+        Me.txtcode.Location = New System.Drawing.Point(104, 35)
+        Me.txtcode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtcode.Name = "txtcode"
-        Me.txtcode.Size = New System.Drawing.Size(240, 26)
+        Me.txtcode.Size = New System.Drawing.Size(161, 20)
         Me.txtcode.TabIndex = 35
         '
         'Label21
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(28, 52)
+        Me.Label21.Location = New System.Drawing.Point(19, 39)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(50, 21)
+        Me.Label21.Size = New System.Drawing.Size(34, 16)
         Me.Label21.TabIndex = 34
         Me.Label21.Text = "Code"
         '
@@ -149,26 +154,29 @@ Partial Class frm_EmployeeEntry
         Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.White
         Me.Label18.Location = New System.Drawing.Point(0, 0)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(1358, 40)
+        Me.Label18.Size = New System.Drawing.Size(905, 26)
         Me.Label18.TabIndex = 33
         Me.Label18.Text = "Employee Information"
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'DOJ
         '
-        Me.DOJ.Location = New System.Drawing.Point(156, 262)
+        Me.DOJ.Location = New System.Drawing.Point(695, 35)
+        Me.DOJ.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DOJ.Name = "DOJ"
-        Me.DOJ.Size = New System.Drawing.Size(286, 26)
+        Me.DOJ.Size = New System.Drawing.Size(192, 20)
         Me.DOJ.TabIndex = 32
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(28, 265)
+        Me.Label15.Location = New System.Drawing.Point(608, 37)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(129, 21)
+        Me.Label15.Size = New System.Drawing.Size(88, 16)
         Me.Label15.TabIndex = 31
         Me.Label15.Text = "Date Of Joining"
         '
@@ -176,9 +184,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.cmbtype.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbtype.FormattingEnabled = True
-        Me.cmbtype.Location = New System.Drawing.Point(1042, 247)
+        Me.cmbtype.Location = New System.Drawing.Point(695, 172)
+        Me.cmbtype.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbtype.Name = "cmbtype"
-        Me.cmbtype.Size = New System.Drawing.Size(286, 28)
+        Me.cmbtype.Size = New System.Drawing.Size(192, 21)
         Me.cmbtype.TabIndex = 30
         '
         'Label14
@@ -186,9 +195,10 @@ Partial Class frm_EmployeeEntry
         Me.Label14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(931, 254)
+        Me.Label14.Location = New System.Drawing.Point(608, 165)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(46, 21)
+        Me.Label14.Size = New System.Drawing.Size(32, 16)
         Me.Label14.TabIndex = 29
         Me.Label14.Text = "Type"
         '
@@ -196,9 +206,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.cmbDesig.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbDesig.FormattingEnabled = True
-        Me.cmbDesig.Location = New System.Drawing.Point(1042, 92)
+        Me.cmbDesig.Location = New System.Drawing.Point(695, 57)
+        Me.cmbDesig.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbDesig.Name = "cmbDesig"
-        Me.cmbDesig.Size = New System.Drawing.Size(286, 28)
+        Me.cmbDesig.Size = New System.Drawing.Size(192, 21)
         Me.cmbDesig.TabIndex = 28
         '
         'Label13
@@ -206,9 +217,10 @@ Partial Class frm_EmployeeEntry
         Me.Label13.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(931, 96)
+        Me.Label13.Location = New System.Drawing.Point(608, 62)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(101, 21)
+        Me.Label13.Size = New System.Drawing.Size(70, 16)
         Me.Label13.TabIndex = 27
         Me.Label13.Text = "Designation"
         '
@@ -216,9 +228,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.cmbDepart.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbDepart.FormattingEnabled = True
-        Me.cmbDepart.Location = New System.Drawing.Point(1042, 123)
+        Me.cmbDepart.Location = New System.Drawing.Point(695, 79)
+        Me.cmbDepart.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbDepart.Name = "cmbDepart"
-        Me.cmbDepart.Size = New System.Drawing.Size(286, 28)
+        Me.cmbDepart.Size = New System.Drawing.Size(192, 21)
         Me.cmbDepart.TabIndex = 26
         '
         'Label12
@@ -226,9 +239,10 @@ Partial Class frm_EmployeeEntry
         Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(931, 127)
+        Me.Label12.Location = New System.Drawing.Point(608, 84)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(102, 21)
+        Me.Label12.Size = New System.Drawing.Size(69, 16)
         Me.Label12.TabIndex = 25
         Me.Label12.Text = "Department"
         '
@@ -236,33 +250,37 @@ Partial Class frm_EmployeeEntry
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(28, 198)
+        Me.Label11.Location = New System.Drawing.Point(19, 128)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(92, 21)
+        Me.Label11.Size = New System.Drawing.Size(62, 16)
         Me.Label11.TabIndex = 24
         Me.Label11.Text = "NTN/CNIC"
         '
         'DOB
         '
-        Me.DOB.Location = New System.Drawing.Point(156, 162)
+        Me.DOB.Location = New System.Drawing.Point(695, 197)
+        Me.DOB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DOB.Name = "DOB"
-        Me.DOB.Size = New System.Drawing.Size(286, 26)
+        Me.DOB.Size = New System.Drawing.Size(192, 20)
         Me.DOB.TabIndex = 23
         '
         'txtcnic
         '
-        Me.txtcnic.Location = New System.Drawing.Point(156, 192)
+        Me.txtcnic.Location = New System.Drawing.Point(104, 128)
+        Me.txtcnic.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtcnic.Name = "txtcnic"
-        Me.txtcnic.Size = New System.Drawing.Size(286, 26)
+        Me.txtcnic.Size = New System.Drawing.Size(192, 20)
         Me.txtcnic.TabIndex = 22
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(28, 171)
+        Me.Label10.Location = New System.Drawing.Point(608, 198)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(111, 21)
+        Me.Label10.Size = New System.Drawing.Size(75, 16)
         Me.Label10.TabIndex = 20
         Me.Label10.Text = "Date Of Birth"
         '
@@ -270,9 +288,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(28, 231)
+        Me.Label9.Location = New System.Drawing.Point(19, 176)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(66, 21)
+        Me.Label9.Size = New System.Drawing.Size(45, 16)
         Me.Label9.TabIndex = 19
         Me.Label9.Text = "Gander"
         '
@@ -280,9 +299,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.radiofemale.AutoSize = True
         Me.radiofemale.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radiofemale.Location = New System.Drawing.Point(303, 228)
+        Me.radiofemale.Location = New System.Drawing.Point(212, 175)
+        Me.radiofemale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.radiofemale.Name = "radiofemale"
-        Me.radiofemale.Size = New System.Drawing.Size(92, 26)
+        Me.radiofemale.Size = New System.Drawing.Size(63, 20)
         Me.radiofemale.TabIndex = 18
         Me.radiofemale.TabStop = True
         Me.radiofemale.Text = "Female"
@@ -292,9 +312,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.radiomale.AutoSize = True
         Me.radiomale.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.radiomale.Location = New System.Drawing.Point(158, 229)
+        Me.radiomale.Location = New System.Drawing.Point(104, 175)
+        Me.radiomale.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.radiomale.Name = "radiomale"
-        Me.radiomale.Size = New System.Drawing.Size(74, 26)
+        Me.radiomale.Size = New System.Drawing.Size(51, 20)
         Me.radiomale.TabIndex = 17
         Me.radiomale.TabStop = True
         Me.radiomale.Text = "Male"
@@ -304,35 +325,39 @@ Partial Class frm_EmployeeEntry
         '
         Me.cmbshift.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbshift.FormattingEnabled = True
-        Me.cmbshift.Location = New System.Drawing.Point(1042, 154)
+        Me.cmbshift.Location = New System.Drawing.Point(695, 103)
+        Me.cmbshift.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbshift.Name = "cmbshift"
-        Me.cmbshift.Size = New System.Drawing.Size(286, 28)
+        Me.cmbshift.Size = New System.Drawing.Size(192, 21)
         Me.cmbshift.TabIndex = 15
         '
         'cmbcity
         '
         Me.cmbcity.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbcity.FormattingEnabled = True
-        Me.cmbcity.Location = New System.Drawing.Point(1042, 216)
+        Me.cmbcity.Location = New System.Drawing.Point(695, 149)
+        Me.cmbcity.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbcity.Name = "cmbcity"
-        Me.cmbcity.Size = New System.Drawing.Size(286, 28)
+        Me.cmbcity.Size = New System.Drawing.Size(192, 21)
         Me.cmbcity.TabIndex = 14
         '
         'CmbCountry
         '
         Me.CmbCountry.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CmbCountry.FormattingEnabled = True
-        Me.CmbCountry.Location = New System.Drawing.Point(1042, 185)
+        Me.CmbCountry.Location = New System.Drawing.Point(695, 126)
+        Me.CmbCountry.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CmbCountry.Name = "CmbCountry"
-        Me.CmbCountry.Size = New System.Drawing.Size(286, 28)
+        Me.CmbCountry.Size = New System.Drawing.Size(192, 21)
         Me.CmbCountry.TabIndex = 13
         '
         'txtphone
         '
         Me.txtphone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtphone.Location = New System.Drawing.Point(1042, 63)
+        Me.txtphone.Location = New System.Drawing.Point(104, 152)
+        Me.txtphone.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtphone.Name = "txtphone"
-        Me.txtphone.Size = New System.Drawing.Size(286, 26)
+        Me.txtphone.Size = New System.Drawing.Size(192, 20)
         Me.txtphone.TabIndex = 12
         '
         'Label8
@@ -340,9 +365,10 @@ Partial Class frm_EmployeeEntry
         Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(931, 160)
+        Me.Label8.Location = New System.Drawing.Point(608, 104)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(45, 21)
+        Me.Label8.Size = New System.Drawing.Size(31, 16)
         Me.Label8.TabIndex = 11
         Me.Label8.Text = "Shift"
         '
@@ -351,9 +377,10 @@ Partial Class frm_EmployeeEntry
         Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(931, 219)
+        Me.Label6.Location = New System.Drawing.Point(608, 142)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 21)
+        Me.Label6.Size = New System.Drawing.Size(27, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "City"
         '
@@ -362,9 +389,10 @@ Partial Class frm_EmployeeEntry
         Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(931, 191)
+        Me.Label7.Location = New System.Drawing.Point(608, 124)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(71, 21)
+        Me.Label7.Size = New System.Drawing.Size(49, 16)
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Country"
         '
@@ -373,57 +401,64 @@ Partial Class frm_EmployeeEntry
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(931, 68)
+        Me.Label5.Location = New System.Drawing.Point(19, 154)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(59, 21)
+        Me.Label5.Size = New System.Drawing.Size(41, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Phone"
         '
         'txtemail
         '
-        Me.txtemail.Location = New System.Drawing.Point(156, 134)
+        Me.txtemail.Location = New System.Drawing.Point(104, 104)
+        Me.txtemail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtemail.Name = "txtemail"
-        Me.txtemail.Size = New System.Drawing.Size(286, 26)
+        Me.txtemail.Size = New System.Drawing.Size(192, 20)
         Me.txtemail.TabIndex = 7
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(28, 140)
+        Me.Label4.Location = New System.Drawing.Point(19, 103)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(51, 21)
+        Me.Label4.Size = New System.Drawing.Size(35, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Email"
         '
         'txtaddress
         '
-        Me.txtaddress.Location = New System.Drawing.Point(156, 294)
+        Me.txtaddress.Location = New System.Drawing.Point(104, 199)
+        Me.txtaddress.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtaddress.Name = "txtaddress"
-        Me.txtaddress.Size = New System.Drawing.Size(770, 26)
+        Me.txtaddress.Size = New System.Drawing.Size(499, 20)
         Me.txtaddress.TabIndex = 5
         '
         'txtfname
         '
-        Me.txtfname.Location = New System.Drawing.Point(156, 105)
+        Me.txtfname.Location = New System.Drawing.Point(104, 80)
+        Me.txtfname.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtfname.Name = "txtfname"
-        Me.txtfname.Size = New System.Drawing.Size(286, 26)
+        Me.txtfname.Size = New System.Drawing.Size(192, 20)
         Me.txtfname.TabIndex = 4
         '
         'txtname
         '
-        Me.txtname.Location = New System.Drawing.Point(156, 75)
+        Me.txtname.Location = New System.Drawing.Point(104, 58)
+        Me.txtname.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtname.Name = "txtname"
-        Me.txtname.Size = New System.Drawing.Size(286, 26)
+        Me.txtname.Size = New System.Drawing.Size(192, 20)
         Me.txtname.TabIndex = 3
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(28, 111)
+        Me.Label3.Location = New System.Drawing.Point(19, 84)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(89, 21)
+        Me.Label3.Size = New System.Drawing.Size(61, 16)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "F/H Name"
         '
@@ -431,9 +466,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(28, 295)
+        Me.Label2.Location = New System.Drawing.Point(19, 200)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(70, 21)
+        Me.Label2.Size = New System.Drawing.Size(49, 16)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Address"
         '
@@ -441,9 +477,10 @@ Partial Class frm_EmployeeEntry
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(28, 82)
+        Me.Label1.Location = New System.Drawing.Point(19, 62)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 21)
+        Me.Label1.Size = New System.Drawing.Size(38, 16)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Name"
         '
@@ -455,9 +492,11 @@ Partial Class frm_EmployeeEntry
         Me.GroupBox2.Controls.Add(Me.BtnEdit)
         Me.GroupBox2.Controls.Add(Me.BtnAdd)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupBox2.Location = New System.Drawing.Point(0, 332)
+        Me.GroupBox2.Location = New System.Drawing.Point(0, 233)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(1358, 55)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(905, 36)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
         '
@@ -466,9 +505,10 @@ Partial Class frm_EmployeeEntry
         Me.BtnClose.BackColor = System.Drawing.Color.Navy
         Me.BtnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnClose.ForeColor = System.Drawing.Color.White
-        Me.BtnClose.Location = New System.Drawing.Point(486, 15)
+        Me.BtnClose.Location = New System.Drawing.Point(324, 10)
+        Me.BtnClose.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnClose.Name = "BtnClose"
-        Me.BtnClose.Size = New System.Drawing.Size(111, 35)
+        Me.BtnClose.Size = New System.Drawing.Size(74, 23)
         Me.BtnClose.TabIndex = 3
         Me.BtnClose.Text = "&Close"
         Me.BtnClose.UseVisualStyleBackColor = False
@@ -478,9 +518,10 @@ Partial Class frm_EmployeeEntry
         Me.BtnDelete.BackColor = System.Drawing.Color.Navy
         Me.BtnDelete.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnDelete.ForeColor = System.Drawing.Color.White
-        Me.BtnDelete.Location = New System.Drawing.Point(375, 15)
+        Me.BtnDelete.Location = New System.Drawing.Point(250, 10)
+        Me.BtnDelete.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnDelete.Name = "BtnDelete"
-        Me.BtnDelete.Size = New System.Drawing.Size(111, 35)
+        Me.BtnDelete.Size = New System.Drawing.Size(74, 23)
         Me.BtnDelete.TabIndex = 2
         Me.BtnDelete.Text = "&Delete"
         Me.BtnDelete.UseVisualStyleBackColor = False
@@ -490,9 +531,10 @@ Partial Class frm_EmployeeEntry
         Me.BtnEdit.BackColor = System.Drawing.Color.Navy
         Me.BtnEdit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnEdit.ForeColor = System.Drawing.Color.White
-        Me.BtnEdit.Location = New System.Drawing.Point(264, 15)
+        Me.BtnEdit.Location = New System.Drawing.Point(176, 10)
+        Me.BtnEdit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnEdit.Name = "BtnEdit"
-        Me.BtnEdit.Size = New System.Drawing.Size(111, 35)
+        Me.BtnEdit.Size = New System.Drawing.Size(74, 23)
         Me.BtnEdit.TabIndex = 1
         Me.BtnEdit.Text = "&Edit"
         Me.BtnEdit.UseVisualStyleBackColor = False
@@ -502,9 +544,10 @@ Partial Class frm_EmployeeEntry
         Me.BtnAdd.BackColor = System.Drawing.Color.Navy
         Me.BtnAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnAdd.ForeColor = System.Drawing.Color.White
-        Me.BtnAdd.Location = New System.Drawing.Point(153, 15)
+        Me.BtnAdd.Location = New System.Drawing.Point(102, 10)
+        Me.BtnAdd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BtnAdd.Name = "BtnAdd"
-        Me.BtnAdd.Size = New System.Drawing.Size(111, 35)
+        Me.BtnAdd.Size = New System.Drawing.Size(74, 23)
         Me.BtnAdd.TabIndex = 0
         Me.BtnAdd.Text = "&Add"
         Me.BtnAdd.UseVisualStyleBackColor = False
@@ -517,58 +560,66 @@ Partial Class frm_EmployeeEntry
         Me.GroupBox3.Controls.Add(Me.Label17)
         Me.GroupBox3.Controls.Add(Me.Label16)
         Me.GroupBox3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GroupBox3.Location = New System.Drawing.Point(0, 386)
+        Me.GroupBox3.Location = New System.Drawing.Point(0, 269)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(1358, 62)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Size = New System.Drawing.Size(905, 40)
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(928, 32)
+        Me.Label19.Location = New System.Drawing.Point(619, 21)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(101, 20)
+        Me.Label19.Size = New System.Drawing.Size(70, 13)
         Me.Label19.TabIndex = 3
         Me.Label19.Text = "Modify When"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(148, 32)
+        Me.Label20.Location = New System.Drawing.Point(99, 21)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(77, 20)
+        Me.Label20.Size = New System.Drawing.Size(53, 13)
         Me.Label20.TabIndex = 2
         Me.Label20.Text = "Modify By"
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(928, 15)
+        Me.Label17.Location = New System.Drawing.Point(619, 10)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(112, 20)
+        Me.Label17.Size = New System.Drawing.Size(76, 13)
         Me.Label17.TabIndex = 1
         Me.Label17.Text = "Created When"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(148, 15)
+        Me.Label16.Location = New System.Drawing.Point(99, 10)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(88, 20)
+        Me.Label16.Size = New System.Drawing.Size(59, 13)
         Me.Label16.TabIndex = 0
         Me.Label16.Text = "Created By"
         '
         'frm_EmployeeEntry
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1358, 448)
+        Me.ClientSize = New System.Drawing.Size(905, 309)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "frm_EmployeeEntry"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Tag = "pay_emp_info"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

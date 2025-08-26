@@ -12,3 +12,9 @@ C:\Users\Administrator\Desktop\Mahad Software\MA_Solution\obj\Debug\MA_Solution.
 C:\Users\Administrator\Desktop\Mahad Software\MA_Solution\obj\Debug\MA_Solution.xml
 C:\Users\Administrator\Desktop\Mahad Software\MA_Solution\obj\Debug\MA_Solution.pdb
 C:\Users\Administrator\Desktop\Mahad Software\MA_Solution\obj\Debug\MA_Solution.exe.config
+E:\MahadWork\MA_Software\Mahad Software\MA_Solution\obj\Debug\MA_Solution.vbproj.AssemblyReference.cache
+E:\MahadWork\MA_Software\Mahad Software\MA_Solution\obj\Debug\MA_Solution.Form1.resources
+E:\MahadWork\MA_Software\Mahad Software\MA_Solution\obj\Debug\MA_Solution.Resources.resources
+E:\MahadWork\MA_Software\Mahad Software\MA_Solution\obj\Debug\MA_Solution.frm_EmployeeEntry.resources
+E:\MahadWork\MA_Software\Mahad Software\MA_Solution\obj\Debug\MA_Solution.vbproj.GenerateResource.cache
+E:\MahadWork\MA_Software\Mahad Software\MA_Solution\obj\Debug\MA_Solution.vbproj.CoreCompileInputs.cache

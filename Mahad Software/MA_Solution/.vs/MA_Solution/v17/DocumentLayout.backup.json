@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC13E5A3-0CBE-4B6B-B6A8-A60FEA24ED7F}|MA_Solution.vbproj|e:\\mahadwork\\ma_software\\mahad software\\ma_solution\\payroll\\frm_employeeentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AC13E5A3-0CBE-4B6B-B6A8-A60FEA24ED7F}|MA_Solution.vbproj|solutionrelative:payroll\\frm_employeeentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC13E5A3-0CBE-4B6B-B6A8-A60FEA24ED7F}|MA_Solution.vbproj|e:\\mahadwork\\ma_software\\mahad software\\ma_solution\\controls\\ma_controls.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AC13E5A3-0CBE-4B6B-B6A8-A60FEA24ED7F}|MA_Solution.vbproj|solutionrelative:controls\\ma_controls.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC13E5A3-0CBE-4B6B-B6A8-A60FEA24ED7F}|MA_Solution.vbproj|e:\\mahadwork\\ma_software\\mahad software\\ma_solution\\payroll\\frm_employeeentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{AC13E5A3-0CBE-4B6B-B6A8-A60FEA24ED7F}|MA_Solution.vbproj|solutionrelative:payroll\\frm_employeeentry.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MA_Controls.vb",
+              "DocumentMoniker": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\Controls\\MA_Controls.vb",
+              "RelativeDocumentMoniker": "Controls\\MA_Controls.vb",
+              "ToolTip": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\Controls\\MA_Controls.vb*",
+              "RelativeToolTip": "Controls\\MA_Controls.vb*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-26T10:20:36.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_EmployeeEntry.vb",
+              "DocumentMoniker": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\Payroll\\frm_EmployeeEntry.vb",
+              "RelativeDocumentMoniker": "Payroll\\frm_EmployeeEntry.vb",
+              "ToolTip": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\Payroll\\frm_EmployeeEntry.vb*",
+              "RelativeToolTip": "Payroll\\frm_EmployeeEntry.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-26T07:31:52.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_EmployeeEntry.vb [Design]",
+              "DocumentMoniker": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\Payroll\\frm_EmployeeEntry.vb",
+              "RelativeDocumentMoniker": "Payroll\\frm_EmployeeEntry.vb",
+              "ToolTip": "E:\\MahadWork\\MA_Software\\Mahad Software\\MA_Solution\\Payroll\\frm_EmployeeEntry.vb [Design]*",
+              "RelativeToolTip": "Payroll\\frm_EmployeeEntry.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-26T07:31:49.63Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
